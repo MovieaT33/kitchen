@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from config.config import TITLE, VERSION
+from config import TITLE, VERSION
 from models.database import Foods, Food
 
 app = FastAPI(
